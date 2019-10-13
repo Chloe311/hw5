@@ -4,8 +4,8 @@ function setup() {
 
 function draw() {
   background(220);
-  for(x = 10; x < width; x+=10)
+  for(i = 10; i < width; i+=10)
   {
-    line(0, x, width, x)
+    line(0, i, width, i);
   }
 }
